@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+:root{
+    ---vinho:#8C0375;
+    ---roxoClaro:#C004D9;
+    ---roxo:#9303A6;
+    ---roxoAzulado:#5D04D9;
+    ---azul:#03318C
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(---roxoAzulado);
+    color:#E5E5E5;
+}
+
+img{
+    width: 100px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.adicionar{
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+
+.adicionar input{
+
+height: 40px;
+width: 392px;
+border-radius: 20px;
+border: 3px solid var(---azul);
+padding-left: 10px;
+
+}
+::-webkit-input-placeholder {
+    color: var(---azul);
+    
+ }
+ 
+ :-moz-placeholder {
+    color: var(---azul);
+    
+ }
+ 
+ ::-moz-placeholder {
+    color: var(---azul);  
+    
+ }
+ 
+ :-ms-input-placeholder {  
+    color: var(---azul);  
+    
+ }
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.botao button{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    border: 3px solid var(---azul);
+        
+}
+.botao-1{
+    background-color: var(---azul);
+    color: #E5E5E5;
+}
+
+.botao-2{
+    color: var(---azul);
+}
+
+.produtos-body{
+    width: 678px;
+    height: 971px;
+    padding: 15px;
+    gap: 115px;
+    box-shadow: -5px 6px 3.3px rgba(0, 0, 0, 0.25);
+    margin-top: 50px;
+    
+}
+.span-main{
+    margin-bottom: 50px;
+}
+.box-1{
+    width: 196px;
+    height: 258px;
+    background-color: var(---roxoAzulado);
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 10px;
+    gap: 10px;
+}
+.imagem-card{
+    width: 176px;
+    height: 174px;
+    border-radius:5px ;
+    border:3px solid black ;
+}
+.text-card{
+    color: #E5E5E5;
+    font-family: 'Courier New', Courier, monospace;
+}
+.preco{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.preco-card{
+    color: #E5E5E5;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+}
+.fa-trash-o{
+    color: #E5E5E5;
+}
+footer{
+    height: 232px;
+    background-color: var(---roxoAzulado);
+    box-shadow: 0 -10px 9.5px 0 rgba(0, 0, 0, 0.25);
+    bottom: 0;
+    margin-top: 100px;
+    color: #E5E5E5;
+}
+.div-alura{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.div-footer{
+text-align: center;
+
+}
+.div-footer p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
