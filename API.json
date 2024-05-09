@@ -1,0 +1,28 @@
+{
+    "produtos": [
+      {
+        "id": 1,
+        "nome": "Sakura",
+        "preco":"20",
+        "imagem":"https://acdn.mitiendanube.com/stores/001/488/690/products/cardcaptor-sakura-781-3f6bd6ae0826815f2c16880523912868-1024-1024.jpg"
+      },
+      {
+        "id": 2,
+        "nome": "SailorMoon",
+        "preco":"30",
+        "imagem":"https://i0.wp.com/gay.blog.br/wp-content/uploads/2020/06/capa-1.jpg?resize=696%2C364&ssl=1"
+      },
+      {
+        "id": 3 ,
+        "nome": "Kero",
+        "preco":"90",
+        "imagem":"https://a-static.mlcdn.com.br/450x450/boneco-kero-sakura-card-captors-clear-card-fluffy-puffy/bqd/10542700427/69306fa0b0f1cb07b8aebaabea9e3a57.jpg"
+      },
+      {
+        "id": 4 ,
+        "nome": "Taz mania",
+        "preco":"90",
+        "imagem":"https://pm1.aminoapps.com/7241/14865b5d233bc981b541f3171dd430ac95b95b0br1-707-977v2_00.jpg"
+      }
+    ]
+  }
