@@ -13,6 +13,7 @@
     ---azul:#03318C
 }
 header{
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,6 +24,7 @@ header{
 img{
     width: 100px;
 }
+
 .container{
     display: flex;
     flex-wrap: wrap-reverse;
@@ -32,12 +34,13 @@ img{
 .adicionar{
 display: flex;
 flex-direction: column;
+justify-content: center;
+align-items: center;
 gap: 20px;
 
 }
 
 .adicionar input{
-
 height: 40px;
 width: 392px;
 border-radius: 20px;
@@ -90,17 +93,25 @@ padding-left: 10px;
 
 .produtos-body{
     display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
+    flex-wrap: wrap;   
+    justify-content: center;
+    gap: 20px;
     width: 678px;
+    height: 400px;
     padding: 15px;
     box-shadow: -5px 6px 3.3px rgba(0, 0, 0, 0.25);
     margin-top: 50px;
-
-  
+    overflow: hidden;
+    overflow-y: scroll;
+    
+ 
 }
 .span-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 50px;
+    
 }
 .box-1{
     width: 196px;
@@ -110,6 +121,7 @@ padding-left: 10px;
     border: 3px solid black;
     padding: 10px;
     gap: 10px;
+
 }
 .imagem-card{
     width: 176px;
@@ -134,8 +146,10 @@ padding-left: 10px;
 }
 .fa-trash-o{
     color: #E5E5E5;
+    cursor: pointer;
 }
 footer{
+   
     height: 232px;
     background-color: var(---roxoAzulado);
     box-shadow: 0 -10px 9.5px 0 rgba(0, 0, 0, 0.25);
@@ -157,3 +171,19 @@ text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
 
+@media (max-width: 600px) {
+    header{
+      width: 45rem;
+      
+    }
+    footer{
+        width: 45rem;
+      }
+
+    .adicionar{
+        margin-bottom: 50px;
+        
+    }
+
+
+  }
